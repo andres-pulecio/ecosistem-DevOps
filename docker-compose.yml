@@ -5,8 +5,8 @@ services:
     ports:
       - "8080:8080"      
       - "50000:50000"
-    volumes:
-      - ${DEVOPS_HOME}/data-Jenkins:/var/jenkins_home
+    # volumes:
+    #   - ${DEVOPS_HOME}/data-Jenkins:/var/jenkins_home
   # nexus:
   #   image: sonatype/nexus3    
   #   ports:
